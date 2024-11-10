@@ -1,0 +1,89 @@
+/* Styling form and resume sections */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #FAFAF5; /* Light ivory background */
+}
+
+form {
+    margin: auto;
+    background-color: #EDF4EE; /* Light mint green */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Soft shadow */
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #2E4F4F; /* Dark slate green */
+}
+
+fieldset {
+    border: 2px solid #4A6C6F; /* Muted dark green */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #E3EAE5; /* Very light sage green */
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #2E4F4F; /* Dark slate green */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #3C5858; /* Dark green-gray */
+}
+
+input, textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid #4A6C6F; /* Dark muted green */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #FFFFFF; /* White input background */
+    color: #2E4F4F; /* Dark slate green for text */
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #607D75; /* Medium sage green */
+    color: #FFFFFF; /* White text */
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Soft shadow */
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4A6C6F; /* Darker sage green */
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #4A6C6F;
+    border-radius: 8px;
+    background-color: #EDF4EE; /* Light mint green */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    /* /Making the resume editable/ */
+    outline: none;
+}
+
+#resume-display h2 {
+    color: #2E4F4F;
+}
